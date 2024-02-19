@@ -1,3 +1,6 @@
 [submodule "CPUPowerWatcher"]
 	path = CPUPowerWatcher
 	url = https://github.com/TomeMD/CPUPowerWatcher.git
+[submodule "CPUPowerSeer"]
+	path = CPUPowerSeer
+	url = https://github.com/TomeMD/CPUPowerSeer.git
