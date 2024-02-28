@@ -2,8 +2,7 @@
 
 This repository acts as an umbrella project for different subprojects that can be combined to automatically build CPU power consumption models. The repository includes (1) [CPUPowerWatcher](https://github.com/TomeMD/CPUPowerWatcher), which gathers CPU metrics during the execution of user-configurable workloads; and (2) [CPUPowerSeer](https://github.com/TomeMD/CPUPowerSeer), which builds models to predict CPU power consumption from different CPU variables using time series data.
 
-<br><p align="center"><img src="./docs/model_automation.png"/></p>
-
+<br><p align="center"><img src="./docs/model_automation.jpg"/></p>
 
 ## Initialization
 
