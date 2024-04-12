@@ -1,8 +1,10 @@
 #!/bin/bash
 
-TRAIN_TIMESTAMPS_DIR=log/train
-TEST_TIMESTAMPS_DIR=log/test
-RESULTS_DIR=log/results
+export REPO_DIR=`cd $(dirname $(dirname "$0")); pwd`
+
+TRAIN_TIMESTAMPS_DIR="${REPO_DIR}"/log/train
+TEST_TIMESTAMPS_DIR="${REPO_DIR}"/log/test
+RESULTS_DIR="${REPO_DIR}"/log/results
 
 mkdir -p "${TRAIN_TIMESTAMPS_DIR}"
 mkdir -p "${TEST_TIMESTAMPS_DIR}"
